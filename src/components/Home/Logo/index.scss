@@ -1,0 +1,25 @@
+
+.logo-container {
+  width: 40%;
+  height: 40%;
+  opacity: 100;
+  position: relative;
+  top: auto;
+  right: 3%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  z-index: -1;
+
+
+  .solid-logo {
+    position: absolute;
+    top: 75%;
+    right: auto;
+    bottom: 10%;
+    left: 75%;
+    margin: auto;
+    width: 100%;
+    transform: rotateZ(30deg) !important;
+  }
+}
